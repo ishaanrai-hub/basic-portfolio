@@ -1,10 +1,10 @@
-/* General Styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1e1e2f; /* Dark navy background */
-    color: #f5f5f5; /* Light text for contrast */
+    background-color: #1e1e2f; 
+    color: #f5f5f5; 
 }
 
 .container {
@@ -20,18 +20,18 @@ body {
 .name {
     font-size: 3rem;
     font-weight: 700;
-    color: #f5c518; /* Bright gold for the name */
+    color: #f5c518; 
 }
 
 .name span {
-    color: #00d4ff; /* Vibrant cyan for emphasis */
+    color: #00d4ff; 
 }
 
 .title {
     font-size: 1.5rem;
     font-weight: 400;
     margin: 10px 0 30px;
-    color: #ff7675; /* Soft coral for the title */
+    color: #ff7675; 
 }
 
 .buttons .btn {
@@ -41,43 +41,42 @@ body {
     cursor: pointer;
     font-weight: 600;
     border-radius: 8px;
-    background-color: #4caf50; /* Green button */
+    background-color: #4caf50;
     color: #fff;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 .buttons .btn:hover {
-    background-color: #388e3c; /* Darker green on hover */
-    transform: scale(1.05); /* Slight zoom effect */
+    background-color: #388e3c; 
+    transform: scale(1.05); 
 }
 
 .about {
     padding: 60px 0;
-    background-color: #2c3e50; /* Darker background for contrast */
+    background-color: #2c3e50; 
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .about h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #ff9800; /* Orange for headings */
-}
+    color: #ff9800; 
 
 .about-content {
     display: flex;
     align-items: center;
     gap: 40px;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    flex-wrap: wrap; 
     justify-content: center;
 }
 
 .about-content .image img {
-    width: 400px;  /* Adjust width for rectangle */
-    height: 400px; /* Adjust height for rectangle */
-    border-radius: 0;  /* No rounded corners */
-    box-shadow: none; /* Remove box-shadow */
+    width: 400px;  
+    height: 400px;
+    border-radius: 0;  
+    box-shadow: none; 
 }
 
 .about-content .info {
@@ -90,8 +89,7 @@ body {
     font-size: 1.2rem;
     line-height: 1.8;
     margin-bottom: 20px;
-    color: #c5cae9; /* Light lavender for text */
-}
+    color: #c5cae9; 
 
 .about-content .info .details {
     list-style: none;
@@ -99,7 +97,7 @@ body {
     margin: 0;
     font-size: 1.1rem;
     margin-bottom: 20px;
-    color: #e1f5fe; /* Soft blue for details */
+    color: #e1f5fe; 
 }
 
 .about-content .info .details li {
@@ -110,30 +108,30 @@ body {
     padding: 12px 25px;
     border: none;
     border-radius: 8px;
-    background-color: #673ab7; /* Purple button */
+    background-color: #673ab7;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 .about-content .info .btn:hover {
-    background-color: #512da8; /* Darker purple on hover */
-    transform: scale(1.05); /* Slight zoom effect */
+    background-color: #512da8; 
+    transform: scale(1.05); 
 }
 
-/* Media Queries for responsiveness */
+
 @media (max-width: 768px) {
     .about-content {
-        flex-direction: column; /* Stack content vertically on smaller screens */
+        flex-direction: column; 
         align-items: center;
     }
 
     .about-content .image img {
-        width: 250px; /* Adjust image size for smaller screens */
+        width: 250px; 
         height: 250px;
     }
 
     .about-content .info .description {
-        font-size: 1.1rem; /* Slightly smaller text on smaller screens */
+        font-size: 1.1rem; 
     }
 }
